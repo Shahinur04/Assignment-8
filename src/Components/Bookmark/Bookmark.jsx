@@ -2,7 +2,7 @@ import React from "react";
 import "./Bookmark.css";
 
 const Bookmark = (props) => {
-  // console.log(props.cartNames)
+  
   const {cartNames}=props;
   const{totalTime}=props;
   return (
