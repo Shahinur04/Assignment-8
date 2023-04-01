@@ -36,13 +36,13 @@
   .album {
     width: 100%;
   }
-  .nav{
+  .nav {
     flex-direction: column;
   }
-  .bookmark-blog{
+  .bookmark-blog {
     margin-left: 0px;
   }
-  .article{
+  .article {
     margin-right: 0px;
     padding: 20px;
   }

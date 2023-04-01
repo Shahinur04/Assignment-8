@@ -2,9 +2,9 @@ import React from "react";
 import "./Cart.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
- 
+
 const Cart = (props) => {
- const {showTime}=props;
+  const { showTime } = props;
   const { album, name, authorImg, authorName, publishDate, time } = props.cart;
 
   return (
@@ -28,7 +28,9 @@ const Cart = (props) => {
       </div>
       <h2>{name}</h2>
       <p>#beginners #programming</p>
-      <a onClick={()=>showTime(time)} className="mark-button">Mark As Read</a>
+      <a onClick={() => showTime(time)} className="mark-button">
+        Mark As Read
+      </a>
       <hr />
     </div>
   );
