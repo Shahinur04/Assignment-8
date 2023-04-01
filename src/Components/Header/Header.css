@@ -42,4 +42,8 @@
   .bookmark-blog{
     margin-left: 0px;
   }
+  .article{
+    margin-right: 0px;
+    padding: 20px;
+  }
 }
