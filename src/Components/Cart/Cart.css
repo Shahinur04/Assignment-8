@@ -1,0 +1,28 @@
+.album{
+    width: 900px;
+    height:470px ;
+}
+.authorImg{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.dynamic-container{
+    margin-top: 10px;
+}
+.publish{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.bro-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mark-button{
+    text-decoration: underline;
+    cursor: pointer;
+}
+

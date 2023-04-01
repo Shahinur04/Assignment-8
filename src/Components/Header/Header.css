@@ -1,0 +1,50 @@
+.header {
+    width: 100%;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .heder-title {
+    margin: 0px;
+  }
+  .profile img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+  .horizontal {
+    border: 1px solid rgba(17, 17, 17, 0.15);
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  @media screen and (max-width: 550px) {
+    .header {
+      flex-direction: column-reverse;
+      gap: 10px;
+      padding-top: 20px;
+    }
+  
+    .blog-container {
+      grid-template-columns: 1fr;
+      padding: 20px;
+    }
+    .album {
+      width: 100%;
+      height: 320px;
+    }
+    .nav {
+      flex-direction: column;
+    }
+    .bookmark-blog {
+      margin-left: 0px;
+    }
+    .article {
+      margin-right: 0px;
+      padding: 20px;
+    }
+  }
