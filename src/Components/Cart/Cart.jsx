@@ -18,7 +18,6 @@ const Cart = (props) => {
             <p>{publishDate}</p>
           </div>
         </div>
-
         <p>
           {time} Min Read{" "}
           <FontAwesomeIcon
