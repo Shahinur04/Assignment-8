@@ -1,0 +1,10 @@
+.book-container{
+  background: rgba(17, 17, 17, 0.05);
+border-radius: 8px;
+padding: 10px;
+}
+.nameList{
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding: 10px;
+}
