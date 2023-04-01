@@ -1,36 +1,45 @@
-.header{
-    width: 100%;
-    background-color: ghostwhite;
-    /* height: 64px; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header {
+  width: 100%;
+  background-color: ghostwhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.heder-title{
-    margin: 0px;
+.heder-title {
+  margin: 0px;
 }
-.profile img{
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
+.profile img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
 }
-.horizontal{
-    /* width: 75%; */
-    border: 1px solid rgba(17, 17, 17, 0.15);
+.horizontal {
+  border: 1px solid rgba(17, 17, 17, 0.15);
 }
-.nav a{
-    margin-left: 20px;
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 550px) {
+  .header {
+    flex-direction: column-reverse;
+    gap: 10px;
+    padding-top: 20px;
   }
-  
-@media screen and (max-width: 768px) {
-    .container {
-      font-size: 14px;
-      margin: 10px;
-      padding: 5px;
-    }
+
+  .blog-container {
+    grid-template-columns: 1fr;
+    padding: 20px;
   }
-  
+  .album {
+    width: 100%;
+  }
+  .nav{
+    flex-direction: column;
+  }
+  .bookmark-blog{
+    margin-left: 0px;
+  }
+}
