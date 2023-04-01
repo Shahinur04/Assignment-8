@@ -1,7 +1,6 @@
 .article{
     background-color: ghostwhite;
     display: grid;
-    /* grid-template-columns: 3fr 1fr; */
     margin-right: 290px;
     padding-left: 5px;
 }
